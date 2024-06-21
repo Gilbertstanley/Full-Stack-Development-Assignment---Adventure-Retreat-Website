@@ -1,0 +1,102 @@
+
+.aboutpageanimation {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;  
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:500px; top:200px;}
+    75%  {background-color:green; left:700px; top:200px;}
+    100% {background-color:red; left:900px; top:0px;}
+  }
+  .footerabout{
+    top: 900px;
+    position: absolute;
+left: 600px;
+  }
+  .footerfaq{
+    top: 900px;
+    position: absolute;
+left: 600px;
+  }
+#copy{
+
+    position: absolute;
+    left: 550px;
+}
+#copy2{
+    
+    position: absolute;
+    left: 550px;
+}
+#copy3{
+    
+    position: absolute;
+    left: 550px;
+}
+#Video{
+    top: 500px;
+    position: absolute;
+    left: 18%;
+border-radius: 10px;
+}
+#iconfaq{
+    position: absolute;
+    left: 36%;
+    top: 120px;
+}
+#pricing{
+    position: absolute;
+    left: 30%;
+    top: 95px;
+    font-size: 20px;
+}
+.row{
+    margin-left: 5%;
+    margin-top: 2px;
+}
+#callus{
+    position: absolute;
+    left: 43%;
+}
+#album2{
+    margin-left: 35px;
+}
+#album2l{
+margin-left: 2%;
+}
+#picalbum{
+ margin-left:30px;
+}
+#para{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 20%;
+    top: 5px;
+}
+/*
+/*.containerd {
+    /* Ensure the container has a defined height to enable scrolling */
+    height: 1000px; /* Example height */
+    position: relative;
+}
+/*
+#wa{
+border-radius: 180%;
+position: sticky;
+    top: 150px; /* Adjust this value to your preference */
+    /* Other styles */
+    width: 100px    ;
+}
+/*
+
